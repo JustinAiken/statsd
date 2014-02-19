@@ -1,13 +1,13 @@
 # -*- encoding: utf-8 -*-
 
-Gem::Specification.new("statsd-ruby", "1.2.1") do |s|
-  s.authors = ["Rein Henrichs"]
-  s.email = "reinh@reinh.com"
+Gem::Specification.new("justinaiken-statsd", "1.3") do |s|
+  s.authors = ["Justin Aiken"]
+  s.email   = "60tonangel@gmail.com"
 
-  s.summary = "A Ruby StatsD client"
-  s.description = "A Ruby StatsD client (https://github.com/etsy/statsd)"
+  s.summary     = "A Ruby StatsD client, with a tweak"
+  s.description = "A Ruby StatsD client, with a tweak "
 
-  s.homepage = "https://github.com/reinh/statsd"
+  s.homepage = "https://github.com/JustinAiken/statsd"
   s.licenses = %w[MIT]
 
   s.extra_rdoc_files = %w[LICENSE.txt README.rdoc]

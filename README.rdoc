@@ -1,11 +1,13 @@
-= statsd-ruby {<img src="https://secure.travis-ci.org/reinh/statsd.png" />}[http://travis-ci.org/reinh/statsd]
+= statsd-ruby {<img src="https://secure.travis-ci.org/JustinAiken/statsd.png" />}[http://travis-ci.org/JustinAiken/statsd]
 
 A Ruby client for {StatsD}[https://github.com/etsy/statsd]
+
+Forked from {reinh's StatsD}[https://github.com/reinh/statsd]
 
 = Installing
 
 Bundler:
-  gem "statsd-ruby"
+  gem "justinaiken-statsd"
 
 = Basic Usage
 
@@ -79,6 +81,7 @@ Run the specs and include live integration specs with <tt>LIVE=true rake spec</t
 * Ray Krueger
 * Reed Lipman
 * Thomas Whaples
+* Justin Aiken
 
 == Copyright
 
